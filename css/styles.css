@@ -86,6 +86,9 @@ body {
     color: var(--acent-color-background-text)
 }
 
+.hero-btn:hover, .hero-btn:focus {
+    background-color: #188CE8;
+} 
 .hero-btn {
     background-color: var(--acent-color);
     font-family: inherit;
