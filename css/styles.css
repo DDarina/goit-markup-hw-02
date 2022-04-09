@@ -88,7 +88,7 @@ body {
 
 .hero-btn {
     background-color: var(--acent-color);
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -97,6 +97,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--acent-color-background-text);
+    cursor: pointer;
 }
 /* benefits*/
 
@@ -157,6 +158,48 @@ body {
     letter-spacing: 0.03em;
 }
 
+
+
+/* portfolio */
+
+.portfolio-title, .project-title {
+    display: none;
+}
+
+.portfolio-btn:hover {
+    background-color: var(--acent-color);
+    color: var(--acent-color-background-text);
+}
+
+.portfolio-btn {
+    background-color: var(--background-color-grey);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--second-color-text);
+    cursor: pointer;
+}
+
+/* .project-img {
+
+} */
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:  var(--second-color-text);
+}
+
+.project-kind {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
 /* footer */
 
 .footer {
@@ -185,6 +228,13 @@ body {
     letter-spacing: 0.03em;
     color: var(--acent-color-background-text);
 }
+.footer-address-link:hover, .footer-mail:hover, .footer-tel:hover {
+    color: var(--acent-color);
+}
+
+.footer-address-link:focus, .footer-mail:focus, .footer-tel:focus {
+    color: var(--acent-color);
+}
 
 .footer-mail, .footer-tel {
     font-family: 'Roboto';
@@ -193,43 +243,4 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
-
-/* portfolio */
-
-.portfolio-title, .project-title {
-    display: none;
-}
-
-.portfolio-btn:hover {
-    background-color: var(--acent-color);
-    color: var(--acent-color-background-text);
-}
-
-.portfolio-btn {
-    background-color: var(--background-color-grey);
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    color: var(--second-color-text);
-}
-
-/* .project-img {
-
-} */
-
-.project-name {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color:  var(--second-color-text);
-}
-
-.project-kind {
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
 }
